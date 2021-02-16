@@ -13,7 +13,7 @@ namespace SteadyRain.Controllers
 {
     public class SchoolsController : Controller
     {
-        private Schools db = new Schools();
+        private SteadyRainDA db = new SteadyRainDA();
 
         // GET: Schools
         public ActionResult Index()

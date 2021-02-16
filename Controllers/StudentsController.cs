@@ -13,7 +13,7 @@ namespace SteadyRain.Controllers
 {
     public class StudentsController : Controller
     {
-        private Students db = new Students();
+        private DataAccess.SteadyRainDA db = new DataAccess.SteadyRainDA();
 
         // GET: Students
         public ActionResult Index()
