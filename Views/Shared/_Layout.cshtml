@@ -3,10 +3,17 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
+    <div class="col-2">
+        <div><i class="fa fa-home"> </i> Dashboard</div>
+        <div><i class="fa fa-graduation-cap"> </i> Students</div>
+        <div><i class="fa fa-building"> </i> Lorem Ipsum</div>
+        <div><i class="fa fa-rocket"> </i> Dolor Sit</div>
+    </div>
+    <div class="col-8">
         @RenderBody()
     </div>
 </body>
